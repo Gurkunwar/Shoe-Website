@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.marg{
+    margin: 2rem;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    margin: 0.5rem;
+}
+
+.card-img-top{
+    height: 15rem;
+    object-fit: fill;
+}
+
+#btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    
+  }
